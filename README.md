@@ -53,6 +53,7 @@ See [docs/testing](docs/testing.md)
 
 Where to go from here:
 
+* Assuming the website and infrastructure code would get updated, it would also need to be versioned. This would be a task for CI/CD pipeline which isn't included here for simplicity so I haven't also included any versioning of this code.
 * Tag all resources according to your company's tagging policy.
 * Configure S3 versions or CouldFront Distribution - Invalidations, so that content gets updated in CDN accordingly after it's updated in S3.
 * Use AWS Lambda to provide dynamic content for the SPA.
